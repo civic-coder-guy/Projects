@@ -8,10 +8,9 @@ submit.addEventListener("click", () => {
     if(birth.getTime()){
         let difference = dateNow.getTime() - birth.getTime();
         let newAge = new Date(difference);
-        let x = Math.abs(newAge.getFullYear()-1970)
-
+        let x = Math.abs(newAge.getFullYear()-dateNow)
         let inDays = (Math.floor(difference / (1000 * 3600 * 24)));
         result.style.display = "block";
-        result.innerHTML = ('You are <span>${x}</span>Years and <span>${inDays}</span> Days Old');
+        result.innerHTML = 'You are <span>${x} </span>Years and <span>${inDays}</span> Days Old';
     }
 })
