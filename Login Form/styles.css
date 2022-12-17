@@ -33,7 +33,7 @@ body {
 
 .shape:last-child {
     background-color: #FF9A8B;
-    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%;
+    background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
     right: -80px;
     bottom: -100px;
 }
@@ -43,7 +43,7 @@ form {
     width: 420px;
     background-color: rgba(255, 255, 255, 0.13);
     position: absolute;
-    trasnform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
     border-radius: 10px;
@@ -66,7 +66,7 @@ form h3 {
     color: #FFF;
     font-weight: 600;
     line-height: 42px;
-    text-aling: center;
+    text-align: center;
 }
 
 label {
@@ -77,7 +77,7 @@ label {
 }
 
 input {
-    display: block:
+    display: block;
     height: 50px;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.07);
@@ -113,6 +113,7 @@ button:hover {
 .social {
     margin-top: 30px;
     display: flex;
+    justify-content: center;
 }
 
 .social div {
