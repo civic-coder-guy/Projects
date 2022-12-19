@@ -1,0 +1,88 @@
+body {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(69,252,90,1) 100%);
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-height: 800px;
+    max-width: 1280px;
+    min-height: 600px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.border {
+    height: 369px;
+    width: 290px;
+    background: transparent;
+    border-radius: 10px;
+    transition: border 1s;
+    position: relative;
+}
+
+.border:hover {
+    border: 1px solid #fff;
+}
+
+.card {
+    height: 379px;
+    width: 300px;
+    background: #808080;
+    border-radius: 10px;
+    transition: background 0.8s;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 70px 63px -60px #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card0 {
+    background: url("https://th.bing.com/th/id/R.eb3a7c97dc783da597e4f4211aabb7bb?rik=s%2bXKXtPAXfQSWg&pid=ImgRaw&r=0") center center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover {
+    background: url("https://th.bing.com/th/id/R.eb3a7c97dc783da597e4f4211aabb7bb?rik=s%2bXKXtPAXfQSWg&pid=ImgRaw&r=0") right center no-repeat;
+    background-size: 600px;
+}
+
+.card0:hover h2 {
+    opacity: 1;
+}
+
+.card0:hover .fa {
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #FFF;
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.fa {
+    opacity: 0;
+    transition: opacity 1s;
+}
+.icons {
+    position: absolute;
+    fill: #FFF;
+    color: #FFF;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
